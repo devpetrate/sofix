@@ -13,8 +13,8 @@ const base58 = require('bs58');
 const colors = require('colors');
 
 const DEVNET_URL = 'https://devnet.sonic.game/';
-const TESTNET_URL = 'https://api.testnet.sonic.game/';
-var NETWORK_TYPE = 2;
+const TESTNET_URL = 'https://api.testnet.v1.sonic.game/';
+var NETWORK_TYPE = 3;
 var connection;
 
 async function setNetType(netType) {
